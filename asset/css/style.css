@@ -1,0 +1,180 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* {
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+a:link{
+	color:#1a0dab;
+}
+
+p{
+	font-weight: 300;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	background-color: #f8f9fa;
+}
+
+footer .footer-warp {
+	text-align: center;
+	padding: 60px 0 50px 0;
+}
+
+footer .footer-text {
+	color: #8d8d8d;
+	font-size: 15px;
+}
+
+footer .contact{
+	margin: 0 7px 0 7px;
+	color: #a5a5a5;
+}
+footer .contact:hover{
+	color: #7e7e7e;
+}
+
+.banner {
+	width: 100%;
+	height: 100px;
+	color: white;
+	background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 300% 300%;
+	-webkit-animation: Gradient 8s ease infinite;
+	-moz-animation: Gradient 8s ease infinite;
+	animation: Gradient 8s ease infinite;
+}
+
+.banner .banner-contents {
+	color: white;
+	padding-top: 44px;
+	font-size: 50px;
+}
+
+.banner .banner-subject {
+	font-weight: 500;
+	font-size: 50px;
+	margin-bottom: 5px;
+}
+
+.banner .banner-description {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+/* content */
+
+.content {
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+.content-box {
+	margin-top: 100px;
+}
+
+.content-box:first-child {
+	margin-top: 0;
+}
+
+.content-subject {
+	color: #333;
+	margin-right: 100%;
+	font-weight: 400;
+	font-size: 27px;
+}
+
+.content-text-box {
+	color: #606167;
+}
+
+.contact {
+	margin: 0px 2.5px 0px 2.5px;
+	font-size: 25px;
+}
+
+/* Activities */
+.activities tr:first-child{
+	border-top: 2px solid #dee2e6;
+}
+.activities tr:nth-child(even){
+	background-color: #fcfcfc;
+}
+.activities .activities-subject {
+	vertical-align: middle;
+}
+.activities tr td .activities-content{
+	margin: 5px;
+}
+
+/* Projects */
+.projects{
+	padding: 32px 12px 32px 12px !important;
+}
+.projects hr {
+	width: 100px;
+}
+.project-subject{
+	font-size: 22px;
+}
+.projects-bottom{
+	font-size: 15px;
+	font-weight:300;
+}
+.projects-bottom-tags{
+	color: #a8a8a8;
+}
+.projects-bottom-tags .tags{
+	margin-right: 7px;
+}
+
+.projects-bottom-date{
+	color:#bdbdbd;
+}
+.project-box {
+	border-top: 2px solid #dee2e6;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0% 50%
+	}
+}
